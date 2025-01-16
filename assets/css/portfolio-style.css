@@ -1,0 +1,64 @@
+.pp-page{padding-top: 150px!important;}
+.pp-page .notes{
+    background: #6384ff;
+    padding: 15px;
+    color: #fff;
+}
+.pp-page ul{
+    background-color: #6385ff1a;
+    padding: 20px 30px;
+}
+.pp-page ul li{line-height: 2.1;}
+.pp-page ul li::marker{color: #6384ff;}
+
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.filter-buttons button{
+    background: #fc7c56;
+    padding: 12px 15px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+}
+.filter-buttons button.active{
+    background-color: #fc7c56!important;
+    color: #fff;
+}
+.filter-buttons button:active{
+    background-color: #fc7c56!important;
+}
+.filter-buttons button:hover{background: #f7754e;color: #fff;}
+.filter-buttons button:focus{box-shadow: initial;}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.portfolio-item h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
