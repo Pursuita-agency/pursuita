@@ -769,7 +769,7 @@ textarea + .err-msg {
   .page-header .navbar-brand img {
     height: 5rem;
   }
-  .navbar-brand{margin-right: 0;}
+  .navbar-brand{margin-right: 0!important;}
 }
 
 .navbar {
