@@ -765,7 +765,7 @@ textarea + .err-msg {
 .page-header .navbar-brand img {
   height: 6rem;
 }
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .page-header .navbar-brand img {
     height: 5rem;
   }
